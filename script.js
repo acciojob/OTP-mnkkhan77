@@ -9,10 +9,10 @@ codes.forEach((code,idx)=>{
          }
 	})
 	code.addEventListener("keydown",(event)=>{
-		 if(event.key==='Backspace'&&!event.target.value&&idx>0 ){
-				codes[idx-1].focus();
-			
-       }
+		 if(event.key==='Backspace'&&!event.target.value&&idx>0 )
+		 {
+			 codes[idx-1].focus();
+	    }
 	 })
  })
 
